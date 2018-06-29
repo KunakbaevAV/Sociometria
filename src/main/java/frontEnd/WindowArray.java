@@ -14,7 +14,6 @@ public class WindowArray extends JFrame {
         setTitle(title);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(SIZE_X, SIZE_Y, WIDTH, HEIGHT);
-        setResizable(false);
 
         JTextArea textRespondents = new JTextArea();
         add(textRespondents, BorderLayout.CENTER);
